@@ -35,6 +35,18 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
         line-height: 64px;
       }
 
+      .square {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        color: #555;
+        border-radius: 0%;
+        background: #ddd;
+        font-size: 30px;
+        line-height: 64px;
+      }
+
       h1 {
         margin: 16px 0;
         color: #212121;
